@@ -1,8 +1,8 @@
 import { createRoot } from "react-dom/client"
 
-App () {
+function App () {
     
-    let root = createRoot(document.getEleement!!!!)
+    let root = createRoot(document.getElementById("root"))
     return (
         <>
             <div>
@@ -15,4 +15,4 @@ App () {
 
 
 
-}
+};
