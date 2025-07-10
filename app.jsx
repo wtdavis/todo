@@ -1,6 +1,7 @@
-import React from "react"
 import { createRoot } from "react-dom/client"
-
+import "./src/main.css"
+import Hero from "/src/Hero.jsx"
+import React from "react"
 
 function Root () {
     
@@ -11,7 +12,8 @@ function Root () {
 function App () {
     return (
         <>
-        <h1 class="">ToDo ToDoDo</h1>
+            <h1 className="test-header header">ToDo ToDoDo</h1>
+            <Hero/>    
         </>
     
     )
