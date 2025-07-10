@@ -1,18 +1,21 @@
+import React from "react"
 import { createRoot } from "react-dom/client"
 
-function App () {
+
+function Root () {
     
-    let root = createRoot(document.getElementById("root"))
+    let root = createRoot(document.getElementById('root'))
+    root.render(App())
+};
+
+function App () {
     return (
         <>
-            <div>
-            </div>
+        <h1 class="">ToDo ToDoDo</h1>
         </>
+    
     )
+}
 
+Root()
 
-
-
-
-
-};
