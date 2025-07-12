@@ -10,11 +10,18 @@ function List () {
 
     let listArr = ["thing one", "thing two", "thing three", "thing four"]
     
-
+    let listItems = listArr.map(
+        (arrItem) => {
+            return (
+                <li> 
+                    {arrItem}
+                </li>
+            )
+        }
+    )
 
     return (
         <>
-            
             
 
         </>
