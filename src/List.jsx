@@ -11,22 +11,26 @@ function List () {
     let listArr = ["thing one", "thing two", "thing three", "thing four"]
     
     let listItems = listArr.map(
-        (arrItem) => {
+        (arrItem, index) => {
             return (
-                <li> 
+                <li key={index}> 
                     {arrItem}
                 </li>
             )
         }
     )
 
+
+
     return (
         <>
-            
-
+            <ul>
+                {listItems}
+            </ul>
         </>
 
     )
 
 }
 
+export default List
