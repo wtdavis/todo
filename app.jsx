@@ -14,8 +14,9 @@ function App () {
     return (
         <>
             <h1 className="test-header header">ToDo ToDoDo</h1>
-            <Hero/>    
+            <Hero/>
             <List/>
+
         </>
     
     )
