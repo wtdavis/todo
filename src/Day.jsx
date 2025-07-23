@@ -13,7 +13,9 @@ function Day () {
         <>
             <div className="day-container">
                 <div className="dotw">
-                    
+                    {dotw}
+                    {date}
+                    {toDoObj}
                 </div>
             </div>
         </>
