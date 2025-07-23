@@ -7,9 +7,15 @@ function Day () {
     let [dotw, setDotw] = useState()
     let [toDoObj, setToDoObj] = useState({})
 
+
+
     return (
         <>
-            <div className=""
+            <div className="day-container">
+                <div className="dotw">
+                    
+                </div>
+            </div>
         </>
     )
 
