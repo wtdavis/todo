@@ -4,7 +4,9 @@ import React, { useState } from "react";
 function Week () {
     let [dayList, setDayList] = useState([])
 
-    const 
+    const dayNodeList = function () {
+        
+    }
 
     return (
 
