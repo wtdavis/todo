@@ -13,7 +13,8 @@ function Week () {
     //     )
     // }
 
-    const dotwList = []
+    const dotwList = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    const dotwAbbrList = ["M", "T", "W", "T", "F", "S", "S"]
 
     return (
 
