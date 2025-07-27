@@ -17,7 +17,8 @@ function Week () {
     const dotwAbbrList = ["M", "T", "W", "T", "F", "S", "S"]
 
     return (
-
+        <>
+        </>
     )
 
 }
