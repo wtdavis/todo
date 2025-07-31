@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Day.jsx"
 function Week () { 
     let [dayList, setDayList] = useState([])
+    let [probsObj, setProbsObj] = useState({})
 
     // const dayNodeList = function () {
     //     return (

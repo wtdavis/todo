@@ -1,6 +1,6 @@
 import React, { use, useState } from "react";
 
-function Day () {
+function Day (probsObj) {
     // a Day should have a day-of-the-week(dotw), date, and to-do objects (?)
 
     let [date, setDate] = useState()
