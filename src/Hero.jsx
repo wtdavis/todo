@@ -6,13 +6,15 @@ function Hero () {
     return (
         <>
 
-            <div className="headband"> I'm a headband!
-                <div clasName="headband-section">I'm a headband section!</div>
+            <div className="headband-container"> I'm a headband!
+                <div clasName="headband-section">I'm a headband container!</div>
             </div>
-            <div className="todo-list">
+            <div className="todo-list-container">
 
             </div>
-            <div className=""
+            <div className="calendar-container">
+
+            </div>
         </>
     )
 
