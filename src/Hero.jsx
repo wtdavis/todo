@@ -7,7 +7,7 @@ function Hero () {
         <>
 
             <div className="headband-container"> I'm a headband!
-                <div clasName="headband-section">I'm a headband container!</div>
+                
             </div>
             <div className="todo-list-container">
 
@@ -17,7 +17,6 @@ function Hero () {
             </div>
         </>
     )
-
 }
 
 export default Hero
