@@ -12,6 +12,7 @@ function Hero () {
             <div className="todo-list-container">
 1
 2
+3
             </div>
             <div className="calendar-container">
 
