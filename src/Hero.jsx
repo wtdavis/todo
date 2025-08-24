@@ -21,6 +21,7 @@ function Hero () {
 
 4
 56
+6
             </div>
             <div className="calendar-container">
 
