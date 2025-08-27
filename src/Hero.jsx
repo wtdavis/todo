@@ -18,6 +18,7 @@ function Hero () {
 6
 5
 
+test
 
 4
 56
