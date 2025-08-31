@@ -10,20 +10,7 @@ function Hero () {
                 
             </div>
             <div className="todo-list-container">
-1
-2
-3
-4
-5
-6
-5
 
-test
-
-4
-56
-6
-5
             </div>
             <div className="calendar-container">
 
