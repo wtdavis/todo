@@ -8,7 +8,7 @@ function List () {
 
     // turn list into <li> under a <ul>
 
-    let listArr = ["thing one", "thing two", "thing three", "thing four", "Danielle MacCollough"]
+    let listArr = ["thing one", "thing two", "thing three", "thing four", "Danielle MacDougall"]
     
     let listItems = listArr.map(
         (arrItem, index) => {
